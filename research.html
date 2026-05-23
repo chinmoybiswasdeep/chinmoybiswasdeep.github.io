@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research | Chinmoy Biswas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar page-nav">
+    <a class="brand" href="index.html">Chinmoy Biswas</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">Academics</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="experience.html">ECA</a>
+      <a href="projects.html">Projects</a>
+      <a href="awards.html">Awards</a>
+      <a href="collaboration.html">Collaboration</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main class="page-main">
+    <section class="section page-hero compact-hero">
+      <div class="section-heading">
+        <!-- <p class="section-label">Research</p> -->
+        <h1 class="page-title">Current and Past Research Directions</h1>
+      </div>
+
+      <div class="card-grid research-grid">
+        <article class="feature-card research-card-wide">
+          <img src="docs/img_qml.jpg" alt="Quantum computing visualization" />
+          <div class="card-body">
+            <h3>Quantum Machine Learning</h3>
+            
+            <div class="research-subcards">
+              <a class="research-subcard" href="#detail-dvqc" aria-label="View DVQC research details">
+                <h4>Superconducting</h4>
+                
+              </a>
+              <a class="research-subcard" href="#detail-cvqc" aria-label="View CVQC research details">
+                <h4>Photonics</h4>
+                
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-card research-card-wide">
+          <img src="docs/img_comsol.jpg" alt="Photonics and optics research" />
+          <div class="card-body">
+            <h3>Computational Photonic Modeling</h3>
+            
+            <div class="research-subcards photonic-subcards">
+              <a class="research-subcard" href="#detail-photonic-memory" aria-label="View Photonic Memory research details">
+                <h4>Photonic Memory</h4>
+                
+              </a>
+              <a class="research-subcard" href="#detail-inverse-design" aria-label="View Inverse Design research details">
+                <h4>Inverse Design</h4>
+                
+              </a>
+              <a class="research-subcard" href="#detail-tpv-emitter" aria-label="View TPV Emitter research details">
+                <h4>TPV Emitter</h4>
+                
+              </a>
+              <a class="research-subcard" href="#detail-nl-interaction" aria-label="View NL Interaction research details">
+                <h4>NL Interaction</h4>
+                
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <a class="feature-card research-detail-link-card" href="#detail-elf" aria-label="View Electrical Load Forecasting research details">
+          <img src="docs/img_lf2.png" alt="Data and forecasting research" />
+          <div class="card-body">
+            <h3>Electrical Load Forecasting</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section research-detail-section" aria-labelledby="research-detail-title">
+      <div class="section-heading">
+        <!-- <p class="section-label">Research Details</p> -->
+        <h2 id="research-detail-title">Research in Detail</h2>
+      </div>
+
+      <div class="research-detail-grid">
+        <article class="research-detail-box" id="detail-dvqc">
+          <img src="docs/img_qrc.png" alt="DVQC research visual" />
+          <div>
+            <p class="section-label">Quantum Machine Learning</p>
+            <h3>QML on a Superconducting Platform</h3>
+            <p>Quantum Reservoir Computing on Google Willow. Part of Master's Thesis.</p>
+            <div class="research-detail-links">
+              <a aria-label="DVQC paper link placeholder">Ongoing</a>
+              <!-- <a href="#" aria-label="DVQC code link placeholder">Code</a>
+              <a href="#" aria-label="DVQC notes link placeholder">Notes</a> -->
+            </div>
+          </div>
+        </article>
+
+        <article class="research-detail-box" id="detail-cvqc">
+          <img src="docs/img_cvqc.png" alt="CVQC research visual" />
+          <div>
+            <p class="section-label">Quantum Machine Learning</p>
+            <h3>QML on Photonics platforms</h3>
+            <p>Showing quantum advantage for generative problems in Xanadu's CVQC photonics platform, and Quantum Reservoir Computing on Quandela's photonic quantum processor. Part of Master's Thesis.</p>
+            <div class="research-detail-links">
+              <a aria-label="CVQC paper link placeholder">Ongoing</a>
+              <!-- <a href="#" aria-label="CVQC code link placeholder">Code</a>
+              <a href="#" aria-label="CVQC notes link placeholder">Notes</a> -->
+            </div>
+          </div>
+        </article>
+
+        <article class="research-detail-box" id="detail-photonic-memory">
+          <img src="docs/img_pm.jpg" alt="Photonic memory research visual" />
+          <div>
+            <p class="section-label">Computational Photonic Modeling</p>
+            <h3>Photonic Memory</h3>
+            <p>Design of all-optical memory cells based on phase-change materials (GSST) on plasmonics and photonic crystal platforms for Photonic Neuromorphic Computing. Undergraduate Thesis.</p>
+            <div class="research-detail-links">
+              <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-20-43393" aria-label="Photonic Memory paper link placeholder"><i>Opt. Exp.</i>, 33(20), 43393-43403 (2025)</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="research-detail-box" id="detail-inverse-design">
+          <img src="docs/img_id.png" alt="Inverse design research visual" />
+          <div>
+            <p class="section-label">Computational Photonic Modeling</p>
+            <h3>Inverse Design of Photonic Memory</h3>
+            <p>Deep Learning based Inverse Design of an All-Optical Phase Change Memory. Derivative work from Undergraduate thesis.</p>
+            <div class="research-detail-links">
+              <a aria-label="Inverse Design paper link placeholder">Manuscript in preparation</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="research-detail-box" id="detail-tpv-emitter">
+          <img src="docs/img_tpv.jpeg" alt="TPV emitter research visual" />
+          <div>
+            <p class="section-label">Computational Photonic Modeling</p>
+            <h3>TPV Emitter</h3>
+            <p>Metamaterial Perfect Absorber-based Thermal Emitter for InSb thermo-photovoltaic (TPV) cell, and investigations of Near-Field Effect between the designed thermal emitter and a TPV cell. Collaboration with Prof. Mahdy Rahman Chowdhury at North South University (NSU). Work was published as an Editor's Pick.</p>
+            <div class="research-detail-links">
+              <a href="https://pubs.aip.org/aip/jap/article/139/9/093106/3381979" aria-label="TPV Emitter paper link placeholder"><i>J. Appl. Phys.</i>, 139, 093106 (2026)</a>
+              <a href="https://sites.google.com/view/nsuopticslab/home" aria-label="NSU Optics Lab">NSU Optics Lab</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="research-detail-box" id="detail-nl-interaction">
+          <img src="docs/img_nl.png" alt="Nonlinear interaction research visual" />
+          <div>
+            <p class="section-label">Computational Photonic Modeling</p>
+            <h3>NL Phenomenna in Silicon Waveguides</h3>
+            <p>Modeling laser ablation, two-photon absorption, and electrical field enhancement in silicon ridge waveguides and Micro-Ring Resonators, when excited with femtosecond lasers. Collaboration with Prof. Ying Tsui at University of Alberta.</p>
+            <div class="research-detail-links">
+              <a aria-label="NL Interaction paper link placeholder">Manuscript in preparation</a>
+              <!-- <!-- <a href="#" aria-label="NL Interaction simulation link placeholder">Simulation</a> -->
+              <a href="https://apps.ualberta.ca/directory/person/ytsui" aria-label="Prof Tsui">Prof. Ying Tsui</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="research-detail-box" id="detail-elf">
+          <img src="docs/img_lf.png" alt="Electrical load forecasting research visual" />
+          <div>
+            <p class="section-label">Forecasting</p>
+            <h3>Electrical Load Forecasting</h3>
+            <p>Gaussian Interpolation on a highly sparse electrical load time series real-world dataset (collected from the BUET power plant), and forecasting on the said highly sparse dataset after interpolation. Research spun from Power Systems Project at BUET. Supervision by Prof. Hafiz Imtiaz and Prof. Shaikh Anowarul Fattah from BUET.</p>
+            <div class="research-detail-links">
+              <a href="https://arxiv.org/abs/2508.14069" aria-label="Electrical Load Forecasting paper link placeholder">Pre-print</a>
+              <a href="https://github.com/chinmoybiswasdeep/load-forecasting-using-parallel-LSTMs" aria-label="Electrical Load Forecasting repository link placeholder">Repository</a>
+              <a href="https://hafizimtiaz.buet.ac.bd/" aria-label="Electrical Load Forecasting notes link placeholder">Prof. Hafiz Imtiaz</a>
+              <a href="https://eee.buet.ac.bd/people/faculty/dsaf" aria-label="Electrical Load Forecasting notes link placeholder">Prof. SA Fattah</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Chinmoy Biswas</p>
+    <a href="index.html">Home</a>
+  </footer>
+</body>
+</html>
